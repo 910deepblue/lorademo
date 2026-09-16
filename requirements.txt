@@ -1,0 +1,23 @@
+# 本项目依赖清单（导出日期 2026-09-11）
+# 环境位置: E:\lorademo\910demo  (uv 创建的 venv)
+#
+# 注意: torch 要装 CUDA 12.4 版本，不要用 pip 默认的 CPU 版！
+#       pip install torch --index-url https://download.pytorch.org/whl/cu124
+
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchaudio==2.6.0+cu124
+transformers==5.17.0
+peft==0.20.0
+datasets==5.0.1
+accelerate==1.15.0
+trl==1.13.0
+bitsandbytes==0.50.2     # >=0.45 才自带 cuda124 的 Windows 预编译 DLL
+safetensors==0.8.0
+sentencepiece==0.2.2
+tokenizers==0.23.2
+numpy==2.5.2
+sympy==1.13.1
+scipy==1.18.1
+xformers==0.0.35
+pandas==3.0.5
